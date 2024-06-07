@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>BTS: Device Graph</title>
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    BTS: Device Graph
+    </a>
+</nav>
+
+<div class="container">
+  <div class="row justify-content-center">
+   <section id="status" class="container-fluid">
+     <div>
+       <div class="container" style="padding-left: 0; padding-right: 0;">
+	 <div class="container-inner">
+	   <div class="left">
+             <div class="legend" id="chart_legend"></div>
+	   </div>
+	   <div class="right">
+	     <div class="chart" id="chart">
+	       
+               <div style="display: flex;
+			   align-items: center;">
+		 
+		 <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+		   <span class="sr-only">Loading...</span>
+		 </div>
+		 Loading Chart Data...
+               </div>
+	       
+	     </div>
+	   </div>
+	 </div>
+       </div>
+     </div>
+     
+   </section>
+  </div>
+
+  <script type="importmap">
+    {
+	"imports": {
+	    "jquery": "https://code.jquery.com/jquery-3.4.1.min.js",
+	    "popper": "https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js",
+	    "bootstrap": "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
+	    "d3": "https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js",
+	    "chart": "./chart.js"
+	}
+
+    }
+    </script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+	  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+	  crossorigin="anonymous"></script>
+
+<script type="module"
+  src="base.js"></script>
+
+  </body>
+</html>

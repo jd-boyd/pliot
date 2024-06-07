@@ -1,0 +1,80 @@
+/* For Charts */
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 100vh;
+}
+
+.container-inner {
+  background-color: #fff;
+  display: flex;
+  height: 100%;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+.chart {
+  height: 100%;
+}
+
+svg#chart {
+  width: 80%;
+}
+
+.domain {
+  display: none;
+}
+
+.y-axis line {
+  stroke-dasharray: 8 6;
+}
+
+.x-axis line {
+  stroke: #ddd;
+}
+
+.legend {
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.lines-legend {
+  margin-top: 30px;
+  overflow: auto;
+}
+
+.lines-legend .legend-item {
+  margin-bottom: 15px;
+}
+
+.on-offs-legend {
+  position: relative;
+}
+
+.legend-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.legend-rect {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+}
+
+.legend-text {
+  font-size: 12px;
+  width: calc(100% - 20px - 10px);
+}
