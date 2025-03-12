@@ -1,0 +1,25 @@
+{
+  "name": "pliot",
+  "version": "0.0.9",
+  "description": "Graph plotting for IoT",
+  "main": "graph.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx http-server -p 8000"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "d3": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jd-boyd/pliot.git"
+  },
+  "author": "Joshua D. Boyd",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jd-boyd/pliot/issues"
+  },
+  "homepage": "https://github.com/jd-boyd/pliot#readme"
+}

@@ -1,1 +1,2 @@
-python -m http.server 8000
+#!/bin/bash
+npm run dev
